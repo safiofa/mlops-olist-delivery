@@ -25,6 +25,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Generate artifacts (Training)
+      run: |
+        python src/train.py
+
     - name: Run Pytest
       run: |
         python -m pytest
