@@ -1,0 +1,27 @@
+paths:
+  artifacts_dir: "artifacts"
+  models_dir: "artifacts/models"
+  preprocessor_path: "artifacts/models/fitted_preprocessor.joblib"
+  model_path: "artifacts/models/best_model.joblib"
+features:
+  numerical:
+    - total_items
+    - total_price
+    - total_freight
+    - avg_product_weight_g
+    - price_per_item
+    - freight_per_item
+    - purchase_month
+    - purchase_day
+    - purchase_dayofweek
+    - purchase_hour
+  categorical:
+    - customer_state
+    - seller_state
+    - main_payment_type
+  boolean:
+    - is_weekend
+    - same_state
+model_params:
+  target_col: "is_late"
+  threshold: 0.5

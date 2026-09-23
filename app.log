@@ -1,0 +1,7 @@
+[2026-09-19 00:31:13] [INFO] [mlops_olist]: Chargement du préprocesseur depuis : artifacts\models\fitted_preprocessor.joblib
+[2026-09-19 00:31:14] [INFO] [mlops_olist]: Chargement du modèle depuis : artifacts\models\best_model.joblib
+[2026-09-19 00:31:14] [INFO] [mlops_olist]: Pipeline d'inférence initialisé avec succès.
+[2026-09-19 01:47:49] [INFO] [mlops_olist]: Chargement du préprocesseur depuis : artifacts\models\fitted_preprocessor.joblib
+[2026-09-19 01:47:51] [INFO] [mlops_olist]: Chargement du modèle depuis : artifacts\models\best_model.joblib
+[2026-09-19 01:47:51] [INFO] [mlops_olist]: Pipeline d'inférence initialisé avec succès.
+[2026-09-19 01:50:28] [INFO] [mlops_olist]: Prédiction réussie pour 1 enregistrement(s) en 134.08 ms.

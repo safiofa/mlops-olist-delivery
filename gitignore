@@ -1,0 +1,17 @@
+# Environnement virtuel Python
+venv/
+.venv/
+Env/
+env/
+# Fichiers temp et caches Python/Jupyter
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# Fichier traite par DVC (DT et Modèles)
+artifacts/*.parquet
+artifacts/models/*.joblib
+# Fichiers de config systme et VSCode
+.vscode/
+.DS_Store
+*.log
