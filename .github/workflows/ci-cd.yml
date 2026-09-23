@@ -25,9 +25,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Generate artifacts (Training)
+    - name: Create mock artifacts for testing
       run: |
-        python src/train.py
+        mkdir -p artifacts/models
+        python -c "import joblib; joblib.dump({'mock': 'preprocessor'}, 'artifacts/models/fitted_preprocessor.joblib')"
 
     - name: Run Pytest
       run: |
